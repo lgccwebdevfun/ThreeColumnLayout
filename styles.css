@@ -2,6 +2,7 @@ body
 {
 	margin: 0;
 	background-color: #ffffff;
+	min-width: 860px;
 }
 
 h1
@@ -16,7 +17,7 @@ h1
 {
 	background-color: #eeeeee;
 	color: #006600;
-	min-width: 960px;
+	width: 80%;
 	font-family: Verdana, Arial, sans-serif;
 }
 
@@ -81,7 +82,7 @@ main h2, main h3
 aside
 {
 	float: right;
-	width: 200px;
+	width: 20%;
 }
 
 aside h3
@@ -115,26 +116,43 @@ footer
 	padding-top: 10px;
 	clear: both;
 }
+/** hover code **/
+.hir {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
 ul li a{
+	background: url(sprite.png) no-repeat;
+	display: block;
+	height: 42px;
+}
+
+.home a
+{
+	background-position: -10px 0;
+}
+.home a:hover {
+	background-position: -10px -47px;
+}
+.services a {
+		background-position: -131px 0px;
+	}
+	.services a:hover {
+			background-position: -136px -47px;
+		}
+.contact a {
+		background-position: -259px 0px;
+}
+
+/*ul li a{
     background: url("sprite.png") no-repeat;
     display: block;
     height: 42px;
     }
 
-/*ul li.home a:hover {
-    background-position: 0 -48px;
-    }
-
-ul li.spring a:hover {
-    background-position: -136px -48px;
-    }
-
-    ul a {
-    	background: url("sprite.png") no-repeat;
-    	height: 40px;
-    	margin-bottom: 2px;
-
-    	}*/
     .home a
     {
     	background-position: -10px 0;
@@ -161,4 +179,4 @@ ul li.spring a:hover {
   	white-space: nowrap;
   	overflow: hidden;
   	display: block;
-  	}
+  	}*/
